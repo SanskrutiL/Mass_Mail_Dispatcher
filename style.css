@@ -1,0 +1,139 @@
+/* Set default font family, background color, and text color */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('background.jpg'); /* Specify the path to your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Header styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Center the main heading and add margin at the top */
+#heading {
+  color: #0e0e0e;
+  font-size: 4em;
+  font-weight: bolder;
+  margin: 1em 0;
+  text-align: center;
+}
+
+/* Style the form container */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 2em;
+}
+
+/* Style form labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style text inputs and text areas */
+input[type="email"],
+textarea,
+#subject {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Style file input */
+input[type="file"] {
+  margin-bottom: 12px;
+}
+
+/* Style form submit button */
+input[type="button"] {
+  display: block;
+  width: calc(100% - 20px);
+  padding: 10px;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Style submit button on hover */
+input[type="button"]:hover {
+  background-color: #555;
+}
+
+/* Container for valid and invalid emails */
+#validEmails,
+#invalidEmails {
+  max-height: 150px;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+
+/* Style paragraphs within container for valid and invalid emails */
+#validEmails p,
+#invalidEmails p {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Images and Text Styles */
+.img1 {
+  height: 300px;
+  position: absolute;
+  align-items: center;
+  left:30%;
+  width: 40%;
+
+}
+
+.img2 {
+  height: 200px;
+  position: absolute;
+  top: 23em;
+  left: 14em;
+}
+
+h1, h2 {
+  font-weight: 400;
+  margin: 0.4em 0;
+  position: absolute;
+  top: 23em;
+  left: 14em;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  color: #888;
+  font-size: 18px;
+}
